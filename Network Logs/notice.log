@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2020-03-24-00-39-42
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double
+1258398064.894123	CUefuFJtHMFLjuPd5	192.168.1.102	3020	74.125.19.148	80	-	-	-	tcp	Conn::Content_Gap	192.168.1.102:3020 > 74.125.19.148:80 content gap (> 991/997)	-	192.168.1.102	74.125.19.148	80	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1258398064.947346	CLQvGa3aCwnr3BmNy	192.168.1.102	3021	216.75.197.71	80	-	-	-	tcp	Conn::Content_Gap	192.168.1.102:3021 > 216.75.197.71:80 content gap (> 1/1136)	-	192.168.1.102	216.75.197.71	80	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1258398128.407251	CImtr9DpuDUa3C0ad	192.168.1.102	3118	198.189.255.74	80	-	-	-	tcp	Conn::Content_Gap	192.168.1.102:3118 > 198.189.255.74:80 content gap (> 1341/623)	-	192.168.1.102	198.189.255.74	80	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1258398128.492849	CVNMYth6yT4vvaFe3	192.168.1.102	3093	66.235.132.121	80	-	-	-	tcp	Conn::Content_Gap	192.168.1.102:3093 > 66.235.132.121:80 content gap (< 2109/577)	-	192.168.1.102	66.235.132.121	80	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1258398139.436569	CVNMYth6yT4vvaFe3	192.168.1.102	3093	66.235.132.121	80	-	-	-	tcp	Conn::Content_Gap	192.168.1.102:3093 > 66.235.132.121:80 content gap (> 2658/1354)	-	192.168.1.102	66.235.132.121	80	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2020-03-24-00-39-42

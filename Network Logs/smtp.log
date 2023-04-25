@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smtp
+#open	2020-03-24-00-39-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	helo	mailfrom	rcptto	date	from	to	cc	reply_to	msg_id	in_reply_to	subject	x_originating_ip	first_received	second_received	last_reply	path	user_agent	tls	fuids
+#types	time	string	addr	port	addr	port	count	string	string	set[string]	string	string	set[string]	set[string]	string	string	string	string	addr	string	string	string	vector[addr]	string	bool	vector[string]
+1258397525.049892	CrMrDM1dAnQ7F9scwj	192.168.1.105	49544	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397538.666806	CrD0Rl3W1o5L56yGJf	192.168.1.105	49545	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397544.568369	CVR0ne3b2E3LA7Bte3	192.168.1.105	49546	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397574.996655	Cdyuci2muVfjyQx40b	192.168.1.105	49549	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397592.257044	ClcCD83TYKE8aTt0Rk	192.168.1.105	49550	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397609.624501	Cex5nkzeTB1OwOY8i	192.168.1.105	49552	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397622.694979	Cgdmu93a3bi0SHLTr6	192.168.1.105	49553	192.168.1.1	25	1	M57Terry	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.105	-	T	(empty)
+1258397940.250443	C7l0AF1lrTPDknexq3	192.168.1.103	2626	192.168.1.1	25	1	m57pat	-	-	-	-	-	-	-	-	-	-	-	-	-	220 2.0.0 Ready to start TLS	192.168.1.1,192.168.1.103	-	T	(empty)
+#close	2020-03-24-00-39-42

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2020-03-24-00-39-41
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1258397189.987352	CkTGbWgSa3nLT37Ze	192.168.1.102	2719	140.211.166.134	80	TCP_ack_underflow_or_misorder	-	F	bro
+1258397202.076995	-	-	-	-	-	truncated_IP	-	F	bro
+1258397219.369565	-	-	-	-	-	ip_hdr_len_zero	-	F	bro
+1258397219.369565	-	0.0.0.0	0	2.25.227.255	0	fragment_protocol_inconsistency	-	F	bro
+1258397243.600182	-	0.0.0.0	0	44.35.185.108	0	fragment_protocol_inconsistency	-	F	bro
+1258397804.383091	-	-	-	-	-	truncated_IP	-	F	bro
+1258397829.603514	-	-	-	-	-	ip_hdr_len_zero	-	F	bro
+1258397829.603514	-	0.0.0.0	0	2.25.227.255	0	fragment_protocol_inconsistency	-	F	bro
+1258398097.533038	-	0.0.0.0	0	44.35.185.108	0	fragment_protocol_inconsistency	-	F	bro
+#close	2020-03-24-00-39-42
